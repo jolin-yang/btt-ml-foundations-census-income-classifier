@@ -14,7 +14,7 @@ This supervised ML problem holds real-world relevance because the insights extra
 - Matplotlib
 - Seaborn   
 
-## 🧮 Classifier Workflow
+## ✅ Classifier Workflow
 - Exploratory Data Analysis (EDA)
   - Inspect the dataset and locate outliers and missing values.  
 - Data Preprocessing
