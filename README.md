@@ -7,32 +7,32 @@ This was the final project I submitted for Break Through Tech's Machine Learning
 This supervised ML problem holds real-world relevance because the insights extracted from my findings could help companies better understand consumer behavior/patterns, enabling them to tailor advertising strategies that maximize impact and effectiveness on target audiences. Having information about who is likely to make over 50K and who isn't would allow a company to identify future customers who are more likely to afford and purchase its products, helping them focus their advertising efforts on high-potential consumers. For instance, a company that sells luxury, high-end designer products could use this information to concentrate the majority of their advertising on audiences with higher income levels who are more likely to purchase such products.
 
 ## 🧰 Toolkit
-🔧 Jupyter Notebook
-🔧 Pandas
-🔧 NumPy
-🔧 Scikit-learn
-🔧 Matplotlib
-🔧 Seaborn
+🔧 Jupyter Notebook   
+🔧 Pandas   
+🔧 NumPy   
+🔧 Scikit-learn   
+🔧 Matplotlib   
+🔧 Seaborn   
 
 ## 🧮 Classifier Workflow
 ✅ Exploratory Data Analysis (EDA)
-  - Inspect the dataset and locate outliers and missing values.
+  - Inspect the dataset and locate outliers and missing values.    
 ✅ Data Preprocessing
-  - Clean dataset - replace missing values, winsorize outliers, scale numerical data, and rename the label to more accurately match the problem.
+  - Clean dataset - replace missing values, winsorize outliers, scale numerical data, and rename the label to more accurately match the problem.    
 ✅ Feature Engineering
-  - One-hot encode categorical values and remove irrelevant features.
+  - One-hot encode categorical values and remove irrelevant features.    
 ✅ Model Training
   - For the 4 different types of classifiers, train two of each type:
     - One classifier trained with default hyperparameters
-    - One classifier trained with best hyperparameter values found using GridSearchCV
+    - One classifier trained with best hyperparameter values found using GridSearchCV    
 ✅ Model Validation
-  - Performed k-fold cross validation using GridSearchCV to identify hyperparameter values optimizing model performance, and tune hyperparameters to those values.
+  - Performed k-fold cross validation using GridSearchCV to identify hyperparameter values optimizing model performance, and tune hyperparameters to those values.    
 ✅ Model Testing
-  - Test model on the testing data.
+  - Test model on the testing data.    
 ✅ Model Evaluation
-  - Evaluated based on AUC, log loss, and accuracy score.
+  - Evaluated based on AUC, log loss, and accuracy score.    
 ✅ Model Selection
-  - Select the model that performs the best in regards to evaluation metrics.
+  - Select the model that performs the best in regards to evaluation metrics.     
 
 ## 📊 Results 
 For all four types of the classification models I trained and tested (Logistic Regression, Decision Tree, Random Forest, and Gradient Boosted Decision Tree), my findings indicated that the classifiers using the best hyperparameter value(s) performed slightly better than their default classifier (set to default hyperparameter values), using AUC, log loss, and accuracy score as my evaluation metrics - though the differences in these metrics between the two classifiers were often miniscule. 
