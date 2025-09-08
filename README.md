@@ -49,7 +49,7 @@ Evaluation Metrics for the 8 Models Trained and Tested:
 | Default Random Forest Classifier                                  |  0.8884487308222218  |  0.5599368820049132  | 0.8460593654042988 |
 | Optimized Random Forest Classifier (Best Params)                  |  0.8851148915302525  |  0.333518624318522   | 0.8489252814738997 |
 | Default Gradient Boosted Decision Tree Classifier                 |  0.9161695817668076  |  0.29753747587200474 | 0.8616171954964176 |
-| Optimized Gradient Boosted Decision Tree Classifier (Best Params) |  0.9234405576442566  |  0.28315057269897215 | 0.8665301944728762 |
+| **Optimized Gradient Boosted Decision Tree Classifier (Best Params)** |  **0.9234405576442566**  |  **0.28315057269897215** | **0.8665301944728762** |
 
 
 As shown in the table above, evaluating all the classifiers with the specified metrics (AUC, log loss, accuracy) and performing model selection yielded the optimizied Gradient Boosted Decision Tree classifier (when all features in the census dataset were used, n_estimators = 100, and max_depth = 6) as the best-performing model across the board. The optimized GBDT model achieved an AUC of 0.923, log loss of 0.283, and 87% accuracy, demonstrating the overall strength of this model.
