@@ -8,29 +8,41 @@ This supervised ML problem holds real-world relevance because the insights extra
 
 ## 🧰 Toolkit
 🔧 Jupyter Notebook   
-🔧 Pandas   
-🔧 NumPy   
+
+🔧 Pandas  
+
+🔧 NumPy 
+
 🔧 Scikit-learn   
-🔧 Matplotlib   
+
+🔧 Matplotlib  
+
 🔧 Seaborn   
 
 ## 🧮 Classifier Workflow
 ✅ Exploratory Data Analysis (EDA)
-  - Inspect the dataset and locate outliers and missing values.    
+  - Inspect the dataset and locate outliers and missing values.
+       
 ✅ Data Preprocessing
-  - Clean dataset - replace missing values, winsorize outliers, scale numerical data, and rename the label to more accurately match the problem.    
+  - Clean dataset - replace missing values, winsorize outliers, scale numerical data, and rename the label to more accurately match the problem.
+    
 ✅ Feature Engineering
-  - One-hot encode categorical values and remove irrelevant features.    
+  - One-hot encode categorical values and remove irrelevant features.
+    
 ✅ Model Training
   - For the 4 different types of classifiers, train two of each type:
     - One classifier trained with default hyperparameters
-    - One classifier trained with best hyperparameter values found using GridSearchCV    
+    - One classifier trained with best hyperparameter values found using GridSearchCV
+      
 ✅ Model Validation
-  - Performed k-fold cross validation using GridSearchCV to identify hyperparameter values optimizing model performance, and tune hyperparameters to those values.    
+  - Performed k-fold cross validation using GridSearchCV to identify hyperparameter values optimizing model performance, and tune hyperparameters to those values.
+       
 ✅ Model Testing
-  - Test model on the testing data.    
+  - Test model on the testing data.
+    
 ✅ Model Evaluation
-  - Evaluated based on AUC, log loss, and accuracy score.    
+  - Evaluated based on AUC, log loss, and accuracy score.
+       
 ✅ Model Selection
   - Select the model that performs the best in regards to evaluation metrics.     
 
