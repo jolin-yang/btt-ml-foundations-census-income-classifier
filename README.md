@@ -21,8 +21,7 @@ This supervised ML problem holds real-world relevance because the insights extra
 
 ## 🧮 Classifier Workflow
 ✅ Exploratory Data Analysis (EDA)
-  - Inspect the dataset and locate outliers and missing values.
-       
+  - Inspect the dataset and locate outliers and missing values.      
 ✅ Data Preprocessing
   - Clean dataset - replace missing values, winsorize outliers, scale numerical data, and rename the label to more accurately match the problem.
     
