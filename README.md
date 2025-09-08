@@ -14,7 +14,9 @@ This supervised ML problem holds real-world relevance because the insights extra
 - Feature Engineering
   - One-hot encode categorical values and remove irrelvant features.
 - Model Training
-  - For the 4 different types of classifiers, train two of each type: one classifier trained with default hyperparameters, another classifier trained with best hyperparameter values found using GridSearchCV.
+  - For the 4 different types of classifiers, train two of each type:
+    - One classifier trained with default hyperparameters
+    - One classifier trained with best hyperparameter values found using GridSearchCV
 - Model Validation
   - Use GridSearchCV to perform k-fold cross validation to identify hyperparameter values optimizing model performance, and tune hyperparameters to those values.
 - Model Testing
