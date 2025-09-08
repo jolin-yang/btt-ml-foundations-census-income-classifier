@@ -11,4 +11,8 @@ Out of the four different classification models I trained and tested (Logistic R
 
 
 ## 📊 Results 
-Out of the 
+For all four types of the classification models I trained and tested (Logistic Regression, Decision Tree, Random Forest, and Gradient Boosted Decision Tree), my findings indicated that the classifiers using the best hyperparameter value(s) performed slightly better than their default classifier (set to default hyperparameter values), using AUC, log loss, and accuracy score as my evaluation metrics - though the differences in these metrics between the two classifiers were often miniscule. 
+
+After training and testing all the models, I found a pattern regarding the features of the model: the top 5 features that held the most weight on each model always seemed to be 'age', 'education-num', 'capital-gain', 'capital-loss', and 'hours-per-week' - which in context, does make sense since all of these features are relevant pieces of information that often determine how much someone gets paid. 
+
+Evaluating all the classifiers with the specified metrics (AUC, log loss, accuracy) and performing model selection yielded the optimizied Gradient Boosted Decision Tree classifier (when all features in the census dataset were used, n_estimators = 100, and max_depth = 6) as the best-performing model across the board. The optimized GBDT model achieved an AUC of 0.923, log loss of 0.283, and 87% accuracy, demonstrating the overall strength of this model.
