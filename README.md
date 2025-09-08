@@ -5,3 +5,10 @@ This was the final project I submitted for Break Through Tech's Machine Learning
 
 ## 🌐 Relevance 
 This supervised ML problem holds real-world relevance because the insights extracted from my findings could help companies better understand consumer behavior/patterns, enabling them to tailor advertising strategies that maximize impact and effectiveness on target audiences. Having information about who is likely to make over 50K and who isn't would allow a company to identify future customers who are more likely to afford and purchase its products, helping them focus their advertising efforts on high-potential consumers. For instance, a company that sells luxury, high-end designer products could use this information to concentrate the majority of their advertising on audiences with higher income levels who are more likely to purchase such products.
+
+## Classifier Pipeline
+Out of the four different classification models I trained and tested (Logistic Regression, Decision Tree, Random Forest, and Gradient Boosted Decision Tree), the Gradient Boosted Decision Tree classifier performed the best when it , achieving a 
+
+
+## 📊 Results 
+Out of the 
