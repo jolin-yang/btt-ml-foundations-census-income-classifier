@@ -53,4 +53,4 @@ Evaluation Metrics for the 8 Models Trained and Tested:
 
 
 ## 🎯 Main Takeaways
-As shown in the table above, evaluating all the classifiers with the specified metrics (AUC, log loss, accuracy) and performing model selection yielded the optimizied Gradient Boosted Decision Tree classifier (when all features in the census dataset were used, n_estimators = 100, and max_depth = 6) as the best-performing model across the board. The optimized GBDT model achieved an AUC of 0.923, log loss of 0.283, and 87% accuracy, demonstrating the overall strength of this model.
+As shown in the table above, evaluating all the classifiers with the specified metrics (AUC, log loss, accuracy) and performing model selection yielded the optimized Gradient Boosted Decision Tree classifier (when all features in the census dataset were used, n_estimators = 100, and max_depth = 6) as the best-performing model across the board. The optimized GBDT model achieved an AUC of 0.923, log loss of 0.283, and 87% accuracy, demonstrating the overall strength of this model.
