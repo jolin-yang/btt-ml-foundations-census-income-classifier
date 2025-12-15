@@ -42,14 +42,14 @@ After training and testing all the models, I found a pattern regarding the featu
 Evaluation Metrics for the 8 Models Trained and Tested: 
 | Model                                                             |         AUC          |       Log Loss       |      Accuracy      |
 |-------------------------------------------------------------------|----------------------|----------------------|--------------------|
-| Default Logistic Regression Classifier                            |  0.899  |  0.326  | 0.846 |
-| Optimized Logistic Regression Classifier (Best Params)            |  0.898   |  0.326  | 0.846 |
-| Default Decision Tree Classifier                                  |  0.886   |  0.337  | 0.846 |
-| Optimized Decision Tree Classifier (Best Params)                  |  0.890  |  0.603  | 0.851 |
-| Default Random Forest Classifier                                  |  0.888  |  0.560  | 0.846 |
-| Optimized Random Forest Classifier (Best Params)                  |  0.885  |  0.334   | 0.848 |
-| Default Gradient Boosted Decision Tree Classifier                 |  0.916  |  0.298 | 0.862 |
-| **Optimized Gradient Boosted Decision Tree Classifier (Best Params)** |  **0.9234405576442566**  |  **0.28315057269897215** | **0.8665301944728762** |
+| Default Logistic Regression Classifier                            | 0.899 | 0.326 | 0.846 |
+| Optimized Logistic Regression Classifier (Best Params)            | 0.898 | 0.326 | 0.846 |
+| Default Decision Tree Classifier                                  | 0.886 | 0.337 | 0.846 |
+| Optimized Decision Tree Classifier (Best Params)                  | 0.890 | 0.603 | 0.851 |
+| Default Random Forest Classifier                                  | 0.888 | 0.560 | 0.846 |
+| Optimized Random Forest Classifier (Best Params)                  | 0.885 | 0.334 | 0.848 |
+| Default Gradient Boosted Decision Tree Classifier                 | 0.916 | 0.298 | 0.862 |
+| **Optimized Gradient Boosted Decision Tree Classifier (Best Params)** |  **0.923**  |  **0.283** | **0.867** |
 
 
 ## 🎯 Main Takeaways
