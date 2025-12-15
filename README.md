@@ -42,13 +42,13 @@ After training and testing all the models, I found a pattern regarding the featu
 Evaluation Metrics for the 8 Models Trained and Tested: 
 | Model                                                             |         AUC          |       Log Loss       |      Accuracy      |
 |-------------------------------------------------------------------|----------------------|----------------------|--------------------|
-| Default Logistic Regression Classifier                            |  0.8982140438549376  |  0.3259699892214959  | 0.8456499488229273 |
-| Optimized Logistic Regression Classifier (Best Params)            |  0.898289353851902   |  0.3256612002905544  | 0.8460593654042988 |
-| Default Decision Tree Classifier                                  |  0.885664712887934   |  0.3372596798806298  | 0.8458546571136131 |
-| Optimized Decision Tree Classifier (Best Params)                  |  0.8900379468976952  |  0.6025988469956406  | 0.8505629477993859 |
-| Default Random Forest Classifier                                  |  0.8884487308222218  |  0.5599368820049132  | 0.8460593654042988 |
-| Optimized Random Forest Classifier (Best Params)                  |  0.8851148915302525  |  0.333518624318522   | 0.8489252814738997 |
-| Default Gradient Boosted Decision Tree Classifier                 |  0.9161695817668076  |  0.29753747587200474 | 0.8616171954964176 |
+| Default Logistic Regression Classifier                            |  0.899  |  0.326  | 0.846 |
+| Optimized Logistic Regression Classifier (Best Params)            |  0.898   |  0.326  | 0.846 |
+| Default Decision Tree Classifier                                  |  0.886   |  0.337  | 0.846 |
+| Optimized Decision Tree Classifier (Best Params)                  |  0.890  |  0.603  | 0.851 |
+| Default Random Forest Classifier                                  |  0.888  |  0.560  | 0.846 |
+| Optimized Random Forest Classifier (Best Params)                  |  0.885  |  0.334   | 0.848 |
+| Default Gradient Boosted Decision Tree Classifier                 |  0.916  |  0.298 | 0.862 |
 | **Optimized Gradient Boosted Decision Tree Classifier (Best Params)** |  **0.9234405576442566**  |  **0.28315057269897215** | **0.8665301944728762** |
 
 
